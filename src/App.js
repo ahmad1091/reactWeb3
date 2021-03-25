@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import JazzIcon from "./components/jazzicon";
+// import Jazzicon from "@metamask/jazzicon";
+import So from "./tsApp.js";
+import Jazzicon from "react-jazzicon";
 
 function App() {
+  // var Jazz = Jazzicon(
+  //   16,
+  //   parseInt("0x86bef5c3c0c3c79bb5aea65fdf1ade4ba5ade6e5".slice(2, 10), 16)
+  // );
+  // console.log(Jazz);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center" }}>
+      <br />
+      <br />
+      <So />
     </div>
   );
 }
 
 export default App;
+
+// var exports = { __esModule: true };
+// export default So;
